@@ -123,7 +123,7 @@ These represent top-performing films across multiple languages, showing diverse 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/PranayDomal/EDA.git
+git clone https://github.com/PranayDomal/EDA_Movies_Dataset.git
 ```
 
 2. Navigate to the folder:
