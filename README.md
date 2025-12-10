@@ -1,12 +1,12 @@
 # EDA on Movies Dataset
 
-## 📌 Project Overview
+## Project Overview
 
 This project performs an in-depth **Exploratory Data Analysis (EDA)** on a Movies dataset containing **9,827 movie records** across **9 features**. The analysis covers data cleaning, preprocessing, transformation, visualization, and insight extraction. The goal is to understand trends in movie genres, languages, ratings, popularity, and release patterns.
 
 ---
 
-## 📂 Dataset Description
+## Dataset Description
 
 **Total Rows:** 9,827
 **Total Columns:** 9
@@ -32,7 +32,7 @@ The dataset required cleaning and restructuring before analysis, including:
 
 ---
 
-## 🧹 Data Cleaning & Preprocessing
+## Data Cleaning & Preprocessing
 
 Key steps performed:
 
@@ -45,9 +45,9 @@ Key steps performed:
 
 ---
 
-## 📊 Key Insights
+## Key Insights
 
-### **1️⃣ Genre Distribution**
+### **Genre Distribution**
 
 After exploding the Genre column:
 
@@ -64,7 +64,7 @@ After exploding the Genre column:
 
 ---
 
-### **2️⃣ Language Insights**
+### **Language Insights**
 
 * The dataset contains movies in **40+ unique languages**.
 * **English movies dominate (~70%)**, making it the primary language of production.
@@ -73,7 +73,7 @@ After exploding the Genre column:
 
 ---
 
-### **3️⃣ Release Year Trends**
+### **Release Year Trends**
 
 * Movies range from **1902 to 2022**.
 * Sharp increase in production post‑1980.
@@ -82,7 +82,7 @@ After exploding the Genre column:
 
 ---
 
-### **4️⃣ Ratings & Popularity**
+### **Ratings & Popularity**
 
 * Average rating (Vote_Average): **6.5–7.0** range.
 
@@ -98,7 +98,7 @@ These represent top-performing films across multiple languages, showing diverse 
 
 ---
 
-## 🧠 Key Takeaways
+## Key Takeaways
 
 * Dataset is **clean and analysis-ready** — no missing or duplicate values.
 * Genre distribution shows clear dominance of **Drama and Comedy**.
@@ -108,7 +108,7 @@ These represent top-performing films across multiple languages, showing diverse 
 
 ---
 
-## 📌 Tools & Libraries Used
+## Tools & Libraries Used
 
 * **Python**
 * **Pandas** (data cleaning & manipulation)
@@ -118,7 +118,7 @@ These represent top-performing films across multiple languages, showing diverse 
 
 ---
 
-## 🚀 How to Run the Notebook
+## How to Run the Notebook
 
 1. Clone the repository:
 
@@ -146,7 +146,7 @@ jupyter notebook EDA_Movies_Dataset.ipynb
 
 ---
 
-## 📎 Project Structure
+## Project Structure
 
 ```
 ├── EDA_Movies_Dataset.ipynb
@@ -155,8 +155,3 @@ jupyter notebook EDA_Movies_Dataset.ipynb
 ├── requirements.txt
 ```
 
----
-
-## 📄 License
-
-This project is released under the **MIT License**.
